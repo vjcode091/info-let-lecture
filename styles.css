@@ -13,15 +13,25 @@ body {
 
 .nav-this {
     width: 340px;
-    padding: 14px;
+    padding: 13px;
     background: rgba(159, 174, 187, 0.781);
     margin: 0 8px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 650px;
 }
 
-.info-let {
+.wild-info {
     text-align: right;
     font-weight: 700;
     color: rgba(25, 36, 29, 0.904);
+}
+
+.info {
+    width: auto;
+    padding: 7px;
+    word-spacing: 2px;
 }
 
 .nav-this ul li {
@@ -49,6 +59,19 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#Introduction {
+#Introduction,
+#Lion,
+#Tiger {
     border-bottom: 4px solid rgba(242, 242, 247, 0.904);
+    margin: 22px 13px;
+}
+
+.lion_1,
+.tiger_1 {
+    margin-bottom: 15px;
+}
+
+span {
+    font-weight: 600;
+    text-decoration: solid;
 }
