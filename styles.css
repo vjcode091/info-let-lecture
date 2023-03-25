@@ -1,77 +1,121 @@
-*,
-*::after,
-*::before {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: rgb(206, 211, 212);
-    display: flex;
-}
-
-.nav-this {
-    width: 340px;
-    padding: 13px;
-    background: rgba(159, 174, 187, 0.781);
-    margin: 0 8px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    height: 650px;
-}
-
-.wild-info {
-    text-align: right;
-    font-weight: 700;
-    color: rgba(25, 36, 29, 0.904);
-}
-
-.info {
-    width: auto;
-    padding: 7px;
-    word-spacing: 2px;
-}
-
-.nav-this ul li {
-    text-decoration: transparent;
-    padding: 10px;
-    list-style: none;
-    width: auto;
-    margin: 6px -3px;
-    background: rgba(128, 138, 153, 0.856);
-}
-
-.nav-this li a {
-    width: auto;
-    font-size: 20px;
-    color: rgb(17, 19, 7);
-    text-decoration: none;
-    font-weight: 600;
-    padding: 3px 230px 3px 0;
-}
-
-.info {
-    padding: 9px;
-    width: auto;
-    font-size: 19px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-#Introduction,
-#Lion,
-#Tiger {
-    border-bottom: 4px solid rgba(242, 242, 247, 0.904);
-    margin: 22px 13px;
-}
-
-.lion_1,
-.tiger_1 {
-    margin-bottom: 15px;
-}
-
-span {
-    font-weight: 600;
-    text-decoration: solid;
-}
+        *,
+        *::after,
+        *::before {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: rgb(206, 211, 212);
+            display: flex;
+        }
+        
+        .nav-this {
+            width: 340px;
+            padding: 13px;
+            background: rgba(159, 174, 187, 0.781);
+            margin: 0 8px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            height: 650px;
+        }
+        
+        .wild-info {
+            text-align: right;
+            font-weight: 700;
+            color: rgba(25, 36, 29, 0.904);
+        }
+        
+        .info {
+            width: auto;
+            padding: 7px;
+            word-spacing: 2px;
+        }
+        
+        .nav-this ul li {
+            text-decoration: transparent;
+            padding: 10px;
+            list-style: none;
+            width: auto;
+            margin: 6px -3px;
+            background: rgba(128, 138, 153, 0.856);
+        }
+        
+        .nav-this li a {
+            width: auto;
+            font-size: 20px;
+            color: rgb(17, 19, 7);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 3px 230px 3px 0;
+        }
+        
+        .info {
+            padding: 9px;
+            width: auto;
+            font-size: 19px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        #Introduction,
+        #Lion,
+        #Tiger {
+            border-bottom: 4px solid rgba(242, 242, 247, 0.904);
+            margin: 22px 13px;
+        }
+        
+        .animal_p {
+            margin: 15px 0;
+        }
+        
+        span {
+            text-decoration: solid;
+            font-weight: 600;
+        }
+        
+        @media screen and (max-width: 650px) {
+            .nav-this {
+                width: 189px;
+                padding: 7px;
+                background: rgba(159, 174, 187, 0.781);
+                margin: 0 3px;
+                position: sticky;
+                top: 0;
+                z-index: 100;
+                height: 100vh;
+            }
+            .wild-info {
+                text-align: right;
+                font-weight: 500;
+                color: rgba(25, 36, 29, 0.904);
+                font-size: 14px;
+            }
+            .info {
+                width: auto;
+                padding: 2px;
+                word-spacing: 1px;
+            }
+            .nav-this ul li {
+                text-decoration: transparent;
+                padding: 10px;
+                list-style: none;
+                width: auto;
+                margin: 2px -3px;
+                background: rgba(128, 138, 153, 0.856);
+            }
+            .nav-this li a {
+                width: auto;
+                font-size: 16px;
+                color: rgb(17, 19, 7);
+                text-decoration: none;
+                font-weight: 500;
+                padding: 0.7px 13px 0.7px 0;
+            }
+            .animal_p {
+                font-size: 12px;
+                color: rgba(20, 31, 24, 0.904);
+                margin: 15px 0;
+            }
+        }
